@@ -1,0 +1,35 @@
+const a = Number (prompt("inserisci primo numero"));
+
+
+const b = Number (prompt("inserisci secondo numero"));
+
+const risultato = 0;
+
+if (operatore == "+")
+{
+    const risultato = a + b;
+    alert(risultato);
+}
+
+else if (operatore == "-")
+{
+    const risultato = a - b;
+    alert(risultato);
+}
+
+else if (operatore == "*")
+{
+    const risultato = a * b;
+    alert(risultato);
+}
+else
+{
+    const risultato = a / b;
+    alert(risultato);
+}
+alert" benvenuto nella calcolatrice più figa al mondo\n"
+ "le funzionalità che offre sono:\n" +
+  - "somma\n" +
+  -"divisione\n" +
+  - "divisione\n" +
+  -"moltiplicazione\n";
