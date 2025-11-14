@@ -30,15 +30,15 @@ let counter = 0;
 
 while (counter < 5)
 
-   alert(..."Ciclo numero:" + counter);
+{
+    alert(..."Ciclo numero:" + counter);
 
     counter += 1;
     if (counter % 5)
     {
-        console.log("Counter + counter"+ "non è multiplo di cinque");
-    
-   
-     console.log("Counter"+counter + " è multiplo di 5")
-        }
+        console.log("Counter + counter" + "non è multiplo di cinque");
+        console.log("Counter" + counter + " è multiplo di 5");
+    }
 
-console.log("Fine ciclo.");
+    console.log("Fine ciclo.");
+}

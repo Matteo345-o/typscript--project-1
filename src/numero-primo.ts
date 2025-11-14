@@ -1,8 +1,8 @@
 const input = Number(prompt("Inserisci un numero:"));
 // TODO #1: Controllare che il numero inserito sia effettivamente un numero.
 // TODO #2: Controllare che il numero inserito sia intero.
-let isPrimeboolean;
-let valuenumber;
+let isPrime;
+let value;
 if (input <= 1)
 {
     isPrime = true;
@@ -29,5 +29,3 @@ while (!isPrime)
     }
 }
 console.log("Il prossimo numero primo è: " + value);
- 
- 
