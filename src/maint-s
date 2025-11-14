@@ -1,0 +1,10 @@
+const array = [9, 2, 12, 5, 100];
+const indice = Number(prompt("insersci indice compreso tra 0 e 4"));
+const nuovoValore = Number(prompt("inserisci nuovo valore"))
+// TODO: HERE. 
+array[indice] = nuovoValore;
+for (let i = 0; i < 5; i++)
+{
+    console.log(array);
+}
+
